@@ -1,0 +1,125 @@
+h3{
+  color: orange;
+  font-size: 200%;
+  font-family: sans-serif;
+  text-align: left;
+}
+/*body*/
+body{
+    margin: 0px;
+    background-color: black;
+    border: 0%;
+  }
+  /*header*/
+  header{
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: orange;
+    align-items: center;
+    height: 200px;
+  }
+  header>div>a>img{
+    width: 200px;
+    height: 200px;
+    align-items: top;
+  }
+  header>nav>a{
+    font-size: 200%;
+    list-style: none;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    grid-template-columns: repeat(3,1fr);
+  }
+  header>nav>a:hover{
+    color: red;
+  }
+  /*class abc*/
+  .abc>img{
+    grid-area: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    float: right;
+    width: 350px;
+    height: 300px;
+    padding-right: 10%;
+  }
+  /*for h1*/
+  .abc>h1{
+    font-size: 400%;
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 5%;
+    padding-left: 15%;
+  }
+  /*for h2*/
+  .abc>h2{
+    color: white;
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding-left: 15%;
+  }
+.abc>button{
+  margin-left: 33%;
+  font-size: 150%;
+  background-color: orange;
+  color: white;
+
+}
+/*using hover*/
+.abc>button:hover{
+  color: red;
+}
+/* class def*/
+  .def{
+    padding-top: 0%;
+    grid-area: auto;
+    display:grid;
+    float:left;
+    height: 150px;
+  }
+  /*for image*/
+  .def>form>a>img{
+    padding-top: 0%;
+    height: 350px;
+    width: 450px;
+  }
+  main>section>div>a>img{
+    height: 450px;
+    width: 500px;
+  }
+  /*form*/
+  main>section>div>form{
+    padding: 0%;
+    width: 100%;
+  }
+  .def>form{
+    color: orange;
+    font-size: 150%;
+  }
+
+  
+  .ghi{
+    width: 200%;
+    height: 200%;
+    color: red;
+  }
+  /*footer*/
+  footer{
+    padding-top: 100%;
+  }
+  footer>div>a>img{
+    float: right;
+    padding-right: 44%;
+    height: 150px;
+  }
+  p{
+    color: black;
+    background-color: orange;
+    padding-top: 10%;
+    font-style: normal;
+    font-size: 100%;
+  }
